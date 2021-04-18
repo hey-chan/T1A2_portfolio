@@ -1,0 +1,274 @@
+body {
+  background: #f0f0f0;
+}
+.index-section {
+  font-family: "Nunito", sans-serif;
+  font-weight: 350;
+  font-size: 1.6rem;
+  line-height: 10px;
+  padding: 10px 0;
+  /* margin: 0 0 2em; */
+}
+.project {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+/* image size  */
+.project.tallwhite,    
+figure img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 200px;
+}
+.index-container nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5em;
+}
+.project:nth-child(5) {
+  grid-column: 1 / span 2;
+}
+.project figcaption {
+  padding: 10px;
+  background-color: rgb(194, 50, 50);
+  color: white;
+  line-height: 1px;
+}
+.project p {
+  font-size: 15px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+.desc {
+  margin: 0.5em 0;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+footer .nav-links-end,
+a {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.nav-links-end {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+footer h3, .nav-links-end  {
+  font-size: 16px;
+}
+ul li {
+  font-size: 30px;
+}
+@media screen and (min-width: 770px) {
+  .project.tallwhite,
+  figure img {
+    height: 250px;
+  }
+  .index-container nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5em;
+  }
+  .project:nth-child(5) {
+    grid-column: 1 / span 4;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    width: 100%;
+  }
+  footer .nav-links-end,
+  a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-links-end {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+  }
+  ul li {
+    font-size: 25px;
+  }
+
+  /* .transparent {
+      position: relative;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -350%);
+      width: 100%;
+      background-color: hsla(2, 68%, 47%, 0.45);
+      margin-bottom: -98px;
+      padding: 1px;
+    }
+    .imagecenter {
+      color: white;
+      margin-left: 20px;
+      font-size: 30px;
+      line-height: 5px;
+    } */
+}
+@media screen and (min-width: 1030px) {
+  body {
+    background: #f0f0f0;
+    height: 30em; /* total height of page */
+    padding-top: 0; /* space between content and top of page */
+    font-family: "Nunito", sans-serif;
+  }
+  .index-section {
+    font-weight: 350;
+    font-size: 1.2rem;
+    padding: 20px 0;
+    line-height: 20px;
+    margin: 0 0 2em;
+  }
+  .index-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .index-container nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+  .project:nth-child(5) {
+    grid-column: 1 / span 4;
+  }
+  .project.box,
+  nav {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+  }
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  .project {
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+    margin: 0;
+  }
+  .project figure {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .box {
+    /* width: 100%;
+   display: flex; */
+    margin-top: 18px;
+  }
+  .project figure img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s;
+  }
+  .project.tallwhite,
+  figure img {
+    height: 300px;
+  }
+  .project figcaption {
+    padding: 50px;
+    background: rgb(194, 50, 50);
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+    line-height: 1em;
+  }
+  .project h3 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1px;
+    padding-top: 3em;
+  }
+  .project p {
+    font-size: 15px;
+  }
+  .project figure:hover img {
+    transform: translateY(-65px);
+  }
+  .tallwhite {
+    width: 100%;
+    display: flex;
+  }
+  .imagecenter {
+    color: white;
+    margin-left: 2em;
+    font-size: 1.5em;
+    line-height: 10px;
+    padding: 0.5em;
+  }
+  .transparent {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    width: 100%;
+    background-color: hsla(2, 68%, 47%, 0.45);
+    margin-bottom: -130px;
+  }
+  .desc {
+    margin: 0.5em 0;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    width: 100%;
+  }
+  footer, h3 {
+    font-size: 16px;
+  }
+  footer .nav-links-end,
+  a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-links-end {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  
+  ul li {
+    font-size: 25px;
+  }
