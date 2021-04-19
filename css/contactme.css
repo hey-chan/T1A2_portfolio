@@ -253,15 +253,17 @@ footer {
 }
 article ol {
   display: flex;
-  justify-content: space-evenly;
   text-decoration: none;
   list-style: none;
   width: 100%;
+  justify-content: center;
 }
 
-#contacts, .icon {
+ol #contacts, .icon {
   color: black;
   font-size: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 footer {
@@ -269,7 +271,7 @@ footer {
 }
 
 p {
-  margin-top: 1px;
+  margin-top: -1px;
 }
 
 /*# sourceMappingURL=contactme.css.map */
