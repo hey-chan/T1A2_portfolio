@@ -9,7 +9,6 @@ The purpose of this portfolio is to:
 - Use this as a way to showcase myself, personality, interest and experiences
 - A way to connect and reachout to fellow students and developers in the industry
 
-
 ## ***Target audience***
 
 Target audience includes:
