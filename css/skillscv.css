@@ -251,5 +251,8 @@ footer {
     transform: translateX(0px);
   }
 }
+footer {
+  bottom: 0;
+}
 
 /*# sourceMappingURL=skillscv.css.map */
