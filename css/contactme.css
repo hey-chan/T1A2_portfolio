@@ -251,5 +251,25 @@ footer {
     transform: translateX(0px);
   }
 }
+article ol {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+}
+
+#contacts, .icon {
+  color: black;
+  font-size: 50px;
+}
+
+footer {
+  bottom: 0;
+}
+
+p {
+  margin-top: 1px;
+}
 
 /*# sourceMappingURL=contactme.css.map */
