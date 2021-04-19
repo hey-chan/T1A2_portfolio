@@ -251,8 +251,29 @@ footer {
     transform: translateX(0px);
   }
 }
-footer {
-  bottom: 0;
+article .techstack li, .misc {
+  list-style: none;
+  margin-left: 2em;
+  font-size: 16px;
+  padding: 1px 0;
+}
+
+span .listfont {
+  font-family: "Nunito", sans-serif;
+}
+
+.misc li {
+  font-size: 16px;
+}
+
+.resume p a {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=skillscv.css.map */

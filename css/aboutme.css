@@ -63,7 +63,6 @@ footer {
   min-height: 4vh;
   width: 100%;
   background-color: black;
-  position: absolute;
 }
 
 .logo {
@@ -200,16 +199,6 @@ main {
     margin-right: 1px;
   }
 
-  h1 {
-    margin-top: 5px;
-  }
-
-  .copyright,
-footer {
-    display: flex;
-    position: absolute;
-  }
-
   body {
     overflow-x: hidden;
   }
@@ -250,6 +239,9 @@ footer {
     opacity: 1;
     transform: translateX(0px);
   }
+}
+footer {
+  bottom: 0;
 }
 
 /*# sourceMappingURL=aboutme.css.map */
