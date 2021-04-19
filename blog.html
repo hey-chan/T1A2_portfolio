@@ -9,8 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
     <script src="https://kit.fontawesome.com/1dcafbf904.js" crossorigin="anonymous"></script>
+    <script src='nav.js'></script>
     <title>My blog</title>
     <style>
 
@@ -89,30 +90,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestias quidem itaque deleniti cumque! Reiciendis odit facilis doloribus dolore praesentium sapiente voluptatem. Est sit laboriosam unde! Ad, facere unde reprehenderit delectus eum sint soluta, cumque et, aliquam pariatur repellendus. Pariatur voluptate quis molestias placeat ducimus. Ratione iste exercitationem ipsam eum veritatis? Ad harum dolore nostrum ipsa quos quo, illum maiores quasi facere architecto explicabo, tempora non. Consequatur officiis in, eligendi veritatis nobis optio, deleniti officia corrupti nihil libero repellendus iusto consectetur molestias aut eum blanditiis quisquam! Praesentium, architecto totam delectus distinctio corrupti ratione quasi assumenda exercitationem dolorum aut cum corporis neque cumque explicabo maxime omnis, expedita dolores, recusandae dolorem deleniti reiciendis quod. Incidunt minima consequuntur fuga pariatur possimus, accusantium maxime in eaque provident voluptatem temporibus?</p>
       </article>
     </main>
-    <script>
-      const navSlide = () => {
-        const burger = document.querySelector(".burger");
-        const nav = document.querySelector(".nav-links");
-        const navLinks = document.querySelectorAll(".nav-links li");
-
-        //toggle//
-        burger.addEventListener("click", () => {
-          nav.classList.toggle("nav-active");
-
-          //animate link
-          navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-              link.style.animation = "";
-            } else {
-              link.style.animation = `navLinkFade 0.5s ease forwards ${
-                index / 6}s`;
-            }
-          });
-        });
-      };
-
-      navSlide();
-    </script>
+    <script src="nav.js"></script>
     <footer class="copyright">
       <ul class="nav-links-end">
         <h3>©Matthew Liu</h3>
