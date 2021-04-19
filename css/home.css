@@ -1,6 +1,7 @@
 body {
   background: #f0f0f0;
 }
+
 .index-section {
   font-family: "Nunito", sans-serif;
   font-weight: 350;
@@ -27,11 +28,13 @@ figure img {
   object-fit: cover;
   height: 200px;
 }
+/* for mobile viewing */
 .index-container nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5em;
 }
+/* last nav link is spread over two columns */
 .project:nth-child(5) {
   grid-column: 1 / span 2;
 }
@@ -133,21 +136,23 @@ ul li {
 @media screen and (min-width: 1030px) {
   body {
     background: #f0f0f0;
-    height: 30em; /* total height of page */
+    height: 29em; /* total height of page */
     padding-top: 0; /* space between content and top of page */
     font-family: "Nunito", sans-serif;
   }
   .index-section {
-    font-weight: 350;
+    /* font-weight: 350; */
     font-size: 1.2rem;
-    padding: 20px 0;
-    line-height: 20px;
-    margin: 0 0 2em;
+    /* padding: 20px 0; */
+    /* line-height: 10px; */
+    /* margin: 0 0 200em; */
   }
+  /* max width of nav menu */
   .index-wrapper {
     max-width: 1100px;
     margin: 0 auto;
   }
+  /* grid implemented for nav */
   .index-container nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -174,16 +179,20 @@ ul li {
     text-decoration: none;
     margin: 0;
   }
+  
+  /* hides nav desc */
   .project figure {
     position: relative;
     overflow: hidden;
   }
-
+/* 
   .box {
-    /* width: 100%;
-   display: flex; */
+    width: 100%;
+   display: flex;
     margin-top: 18px;
-  }
+  } */
+  
+  /* animation for nav */
   .project figure img {
     width: 100%;
     display: flex;
@@ -197,6 +206,7 @@ ul li {
   figure img {
     height: 300px;
   }
+  /* nav desc when hovered over */
   .project figcaption {
     padding: 50px;
     background: rgb(194, 50, 50);
@@ -220,9 +230,11 @@ ul li {
   .project p {
     font-size: 15px;
   }
+  /* animation and effect feature */
   .project figure:hover img {
     transform: translateY(-65px);
   }
+  /* centrepiece image */
   .tallwhite {
     width: 100%;
     display: flex;
@@ -234,6 +246,7 @@ ul li {
     line-height: 10px;
     padding: 0.5em;
   }
+  /* text over centrepiece image */
   .transparent {
     position: relative;
     top: 100%;
@@ -246,6 +259,7 @@ ul li {
   .desc {
     margin: 0.5em 0;
   }
+  /* attributes for footer section */
   footer {
     display: flex;
     justify-content: space-around;
