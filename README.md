@@ -1,6 +1,4 @@
 # TIA2_portfolio
-
-
 ###### https://github.com/hey-chan/TIA2_portfolio
 
 ## ***Purpose***
@@ -25,4 +23,3 @@ In addition, I have made use of CSS grid, to allow for
 
 I have considered the concept of responsive design and mobile first, and made use of media queries and flexbox to adjust according to the width of the screen and devices. Example:
 ![screenshot-mobile](docs/mobileview.png)
-
