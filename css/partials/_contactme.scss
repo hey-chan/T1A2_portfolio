@@ -2,18 +2,29 @@ article ol {
   display: flex;
   text-decoration: none;
   list-style: none;
-  width: 100%;
-  justify-content: center;
-}
-
-ol #contacts, .icon {
-  color: black;
-  font-size: 50px;
-  padding-left: 1em;
-  padding-right: 1em;
+  justify-content: space-evenly;
   
+  #contacts, .icon {
+    color: black;
+    font-size: 50px;
+  }
 }
+  .mid {
+    text-align: center;
+  }
+  .messageform {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
-p {
-  margin-top: -1px;
-}
+

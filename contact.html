@@ -12,9 +12,6 @@
     <link rel="stylesheet" type="text/css" href="css/mains.css">
     <script src="https://kit.fontawesome.com/1dcafbf904.js" crossorigin="anonymous"></script>
     <title>Contact me</title>
-    <style>
-
-    </style>
   </head>
   <body>
     <nav>
@@ -40,13 +37,30 @@
         <h1>Contact</h1>
       </section>  
       <article>
-        <p>Feel free to contact me via my socials below</p>
+        <img src="https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2017/09/email-on-phone-1920-800x450.png" alt="phone">
+        <p class="mid">Feel free to contact me via my socials below</p>
+        
         <ol id="contacts">
             <li><a class="icon" href="https://www.facebook.com/iammattnotchan"><i class="fab fa-facebook-square"></i></a></li>
             <li><a class="icon" href="https://www.linkedin.com/in/matthew-liu-4b072b122"><i class="fab fa-linkedin"></i></a></li>
             <li><a class="icon" href="https://github.com/hey-chan"><i class="fa fa-github-square"></i></a></li>
             <li><a class="icon" href="https://twitter.com/iammattnotchan"><i class="fab fa-twitter-square"></i></a></li>
-        <ol>
+        </ol>
+          <p class="messageform">Or write a message, and I will get in touch</p>
+          <div class="messageform">
+            <form action="#" method="post">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="a_name" placeholder="Your name.." required>
+
+              <label for="email">Email</label>
+              <input type="email" id="emails" name="an_email" placeholder="Your email.." required>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
       </article>
     </main>
     <script src="nav.js"></script>
