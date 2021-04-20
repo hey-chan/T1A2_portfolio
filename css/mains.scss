@@ -1,10 +1,13 @@
+@import "partials/contactme";
+@import "partials/skillscv";
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  
 }
-
 /* body {
   height: 900px;
 } */
@@ -15,7 +18,7 @@
   padding: 30px 20px;
 } */
 article {
-  background-color: #f3ecec;
+  background-color: rgb(243, 236, 236);
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -25,7 +28,7 @@ article {
 }
 
 h1 {
-  background-color: #f3ecec;
+  background-color: rgb(243, 236, 236);
   padding: 20px;
   border-radius: 5px;
   justify-content: center;
@@ -38,7 +41,6 @@ article img {
   object-fit: contain;
   width: 100%;
 }
-
 /* article h3 p {
   margin: 10px 1.5em 25px 1.5em;
 }
@@ -51,18 +53,17 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 6vh;
-  background-color: #a70f0f;
+  background-color: rgb(167, 15, 15);
   position: fixed;
   width: 100%;
 }
-
 footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 4vh;
   width: 100%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   position: relative;
   bottom: 0;
 }
@@ -73,14 +74,12 @@ footer {
   letter-spacing: 5px;
   font-size: 32px;
 }
-
-.nav-links {
+.nav-links{
   display: flex;
   /* background-color: rgb(167, 15, 15); */
   justify-content: space-around;
   width: 50%;
 }
-
 .nav-links-end {
   width: 90%;
   display: flex;
@@ -90,12 +89,10 @@ footer {
 .nav-links li, .nav-links-end {
   list-style: none;
 }
-
 footer, .nav-links-end, a {
   text-decoration: none;
   color: white;
 }
-
 .nav-links a {
   color: white;
   text-decoration: none;
@@ -103,7 +100,6 @@ footer, .nav-links-end, a {
   font-weight: bold;
   font-size: 15px;
 }
-
 /* .container {
   display: flex;
   justify-content: space-around;
@@ -128,40 +124,33 @@ footer, .nav-links-end, a {
   margin-left: 5.4em;
   margin-right: 5.4em;
 }
-
 /* .copyright, footer {
   margin-top: 120px;
 } */
 .content, p {
   margin-top: 30px;
 }
-
 ul li {
   font-size: 20px;
 }
-
 .burger {
   display: none;
 }
-
 .burger div {
   width: 30px;
   height: 5px;
   background-color: white;
   margin: 6px 0;
 }
-
 @media screen and (max-width: 1024px) {
   .content,
-main {
+  main {
     margin: 0 1.2em;
   }
-
   article {
     margin-left: 20px;
     margin-right: 20px;
   }
-
   /* .copyright, footer {
     margin-left: 4em;
     display: block;
@@ -173,17 +162,16 @@ main {
     display: flex;
     width: 70%;
   }
-
   article img {
     display: flex;
     height: 400px;
     object-fit: cover;
     width: 100%;
   }
-
   h1 {
     margin: 10px 2px 20px 1px;
   }
+  
 }
 @media screen and (max-width: 768px) {
   .content main {
@@ -191,42 +179,43 @@ main {
     margin-right: 1.2em;
   }
 
-  article {
+  article { 
     margin-left: 0.5rem;
     margin-right: 1px;
   }
-
   .content, h1 {
     margin-left: 4px;
     margin-right: 1px;
   }
-
   h1 {
     margin-top: 5px;
   }
-
+ 
+  // .copyright,
+  // footer {
+  //   display: flex;
+  //   position: absolute;
+  // }
+  
   body {
     overflow-x: hidden;
   }
-
   .nav-links {
     display: flex;
     position: absolute;
     right: 0px;
     height: 300px;
     top: 6.5vh;
-    background-color: #a70f0f;
+    background-color: rgb(167, 15, 15);
     flex-direction: column;
     align-items: center;
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
-
   .nav-links li {
     opacity: 0;
   }
-
   .burger {
     display: block;
     cursor: pointer;
@@ -235,7 +224,6 @@ main {
 .nav-active {
   transform: translateX(0%);
 }
-
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -247,4 +235,3 @@ main {
   }
 }
 
-/*# sourceMappingURL=projects.css.map */
