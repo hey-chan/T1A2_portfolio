@@ -24,10 +24,18 @@ figure {
 .project.tallwhite,    
 figure img {
   width: 100%;
-  display: block;
+  display: flex;
   object-fit: cover;
   height: 200px;
 }
+.transparent p {
+  font-size: 20px;
+  line-height: 20px;
+}
+.transparent h1 {
+  margin-bottom: 1px;
+}
+
 /* for mobile viewing */
 .index-container nav {
   display: grid;
@@ -85,6 +93,25 @@ ul li {
   figure img {
     height: 250px;
   }
+  img.tallwhite {
+    padding-bottom: 30px;
+  }
+  .transparent {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -390%);
+    width: 100%;
+    background-color: hsla(2, 68%, 47%, 0.45);
+    margin: 0 auto -110px 0;
+  }
+  .imagecenter {
+    color: white;
+    margin-left: 1.5em;
+    font-size: 1em;
+    line-height: 1px;
+  }
+
   .index-container nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -116,22 +143,6 @@ ul li {
     font-size: 25px;
   }
 
-  /* .transparent {
-      position: relative;
-      top: 100%;
-      left: 50%;
-      transform: translate(-50%, -350%);
-      width: 100%;
-      background-color: hsla(2, 68%, 47%, 0.45);
-      margin-bottom: -98px;
-      padding: 1px;
-    }
-    .imagecenter {
-      color: white;
-      margin-left: 20px;
-      font-size: 30px;
-      line-height: 5px;
-    } */
 }
 @media screen and (min-width: 1030px) {
   body {
@@ -140,12 +151,10 @@ ul li {
     padding-top: 0; /* space between content and top of page */
     font-family: "Nunito", sans-serif;
   }
+  
   .index-section {
-    /* font-weight: 350; */
     font-size: 1.2rem;
-    /* padding: 20px 0; */
-    /* line-height: 10px; */
-    /* margin: 0 0 200em; */
+
   }
   /* max width of nav menu */
   .index-wrapper {
@@ -185,13 +194,7 @@ ul li {
     position: relative;
     overflow: hidden;
   }
-/* 
-  .box {
-    width: 100%;
-   display: flex;
-    margin-top: 18px;
-  } */
-  
+
   /* animation for nav */
   .project figure img {
     width: 100%;
@@ -205,6 +208,10 @@ ul li {
   .project.tallwhite,
   figure img {
     height: 300px;
+  }
+
+  img.tallwhite {
+    padding-bottom: 0;
   }
   /* nav desc when hovered over */
   .project figcaption {
@@ -254,8 +261,14 @@ ul li {
     transform: translate(-50%, -150%);
     width: 100%;
     background-color: hsla(2, 68%, 47%, 0.45);
-    margin-bottom: -130px;
+    margin-bottom: -110px;
   }
+  .transparent p {
+    font-size: 22px;
+    line-height: 1px;
+    padding-top: 10px;
+  }
+
   .desc {
     margin: 0.5em 0;
   }
@@ -270,19 +283,18 @@ ul li {
   footer, h3 {
     font-size: 16px;
   }
-  footer .nav-links-end,
-  a {
+  footer .nav-links-end a {
     display: flex;
     list-style: none;
     text-decoration: none;
     color: black;
+  }
+  footer .nav-links-end a:hover {
+    color: rgb(167, 15, 15);
+    transition: 0.2s;
   }
   .nav-links-end {
     display: flex;
     justify-content: space-around;
     width: 40%;
   }
-  
-  /* ul, li {
-    font-size: 25px;
-  } */
