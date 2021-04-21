@@ -1,0 +1,30 @@
+article ol {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+  
+  #contacts, .icon {
+    color: black;
+    font-size: 50px;
+  }
+}
+  .mid {
+    text-align: center;
+  }
+  .messageform {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+

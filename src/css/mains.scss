@@ -1,5 +1,9 @@
-@import "partials/contactme";
+@import "partials/aboutme";
 @import "partials/skillscv";
+@import "partials/projects";
+@import "partials/blog";
+@import "partials/contactme";
+
 
 * {
   margin: 0px;
@@ -8,15 +12,12 @@
   font-family: "Nunito", sans-serif;
   
 }
-/* body {
-  height: 900px;
-} */
-/* main {
-  margin-left: 0;
-  margin-right: 0;
-  width: 91vw;
-  padding: 30px 20px;
-} */
+// body {
+//   height: 900px;
+// } 
+main {
+  padding-bottom: 40px;
+} 
 article {
   background-color: rgb(243, 236, 236);
   padding: 20px;
@@ -25,6 +26,13 @@ article {
   justify-content: center;
   margin-left: 100px;
   margin-right: 100px;
+
+    img {
+      display: flex;
+      height: 500px;
+      object-fit: contain;
+      width: 100%;
+    }
 }
 
 h1 {
@@ -35,12 +43,7 @@ h1 {
   margin: -20px 14px 20px 14px;
 }
 
-article img {
-  display: flex;
-  height: 500px;
-  object-fit: contain;
-  width: 100%;
-}
+
 /* article h3 p {
   margin: 10px 1.5em 25px 1.5em;
 }
@@ -100,23 +103,6 @@ footer, .nav-links-end, a {
   font-weight: bold;
   font-size: 15px;
 }
-/* .container {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  top: 10px;
-  left: 10px; 
-}
-
-.box {
-  background: palegoldenrod;
-  width: 220px;
-  height: 200px;
-  margin: 1em; 
-  padding: 1px;
-} */
 .content, main {
   padding-top: 35px;
   line-height: 1.5;
@@ -124,9 +110,7 @@ footer, .nav-links-end, a {
   margin-left: 5.4em;
   margin-right: 5.4em;
 }
-/* .copyright, footer {
-  margin-top: 120px;
-} */
+
 .content, p {
   margin-top: 30px;
 }
@@ -221,6 +205,8 @@ ul li {
     cursor: pointer;
   }
 }
+
+// appearance of nav items in mobile in conjunction with javascript
 .nav-active {
   transform: translateX(0%);
 }
