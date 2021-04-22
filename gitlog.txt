@@ -1,0 +1,163 @@
+commit 8e64691e5a22e459d57f97224bdb6c65a96f4bcf
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Thu Apr 22 08:17:55 2021 +1000
+
+    delete files
+
+commit 33ef9bb81325b5925a0f93d013cd1e25cf8f79ac
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Thu Apr 22 01:05:59 2021 +1000
+
+    changes for netlify
+
+commit 0ab724ff344d71d045c407a1d1be9972e8ef34c1
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Thu Apr 22 00:35:35 2021 +1000
+
+    file changes
+
+commit b8e21e62da5c90c97308420cceb95b0333fe6d29
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Thu Apr 22 00:18:32 2021 +1000
+
+    final changes
+
+commit 85aa9d53e637f44890d3efc577a7bcec0a37c2cc
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Wed Apr 21 21:40:04 2021 +1000
+
+    modified ds store
+
+commit 0b49a00af9ffdb0a7b37a2af1c29fbaacbd7f857
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Wed Apr 21 21:29:15 2021 +1000
+
+    reorganised all files into proper place
+
+commit d26c1f4a1fc431efc6ece4cd54605833ba88c754
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Wed Apr 21 00:04:59 2021 +1000
+
+    added contact form to contact.html
+
+commit edaa3bdcd2112eecca31b083c8ed9d8d11692fd4
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Tue Apr 20 22:13:57 2021 +1000
+
+    reorganised sass files properly
+
+commit d0cc9fd629a49eeb5aa01721afdc93657aeccab4
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Tue Apr 20 13:33:13 2021 +1000
+
+    more changes with css/scss
+
+commit 773a89d9aefde413815cea53417d6a6e620c79a0
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 21:18:12 2021 +1000
+
+    further changes to various scss files
+
+commit 58ea921510c357296247a680b1f3b66054e5a0c6
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 20:13:56 2021 +1000
+
+    changes in scss and backup
+
+commit f076062c25a89ce9fc1723654b74b0379e517fc3
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 14:42:07 2021 +1000
+
+    added images and edited sass files
+
+commit 33d3014e5fc8741fe19783100ecbd981a8940217
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 12:48:36 2021 +1000
+
+    added sass files
+
+commit e052878da4f4446245a30c53cb917ae40b186a65
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 11:38:11 2021 +1000
+
+    edited readme
+
+commit bbfe3f43d56e8937e8a24af3690d44511328b4b4
+Merge: 03131ae e4fb119
+Author: hey-chan <76156735+hey-chan@users.noreply.github.com>
+Date:   Mon Apr 19 11:33:05 2021 +1000
+
+    Merge branch 'main' into branch1
+
+commit 03131aec45c7aef2f8a628b8a23431887b586fd3
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 11:27:33 2021 +1000
+
+    add readme, maincss and homecss to branch
+
+commit e4fb119315d264b645dc3cddb5a86f3994289667
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 11:09:36 2021 +1000
+
+    change readme
+
+commit 48718066d7909f3806c3254d29b073b59b8e3837
+Merge: 2e48707 7a751af
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 11:07:01 2021 +1000
+
+    change aboutme
+
+commit 2e48707f492a1c32cc5196479e0253cbcd1cb068
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 10:59:45 2021 +1000
+
+    edited readme.md
+
+commit 7a751af51a6b65d9afc6eefcd82d98444e856b9c
+Merge: 0a67735 a7012e9
+Author: hey-chan <76156735+hey-chan@users.noreply.github.com>
+Date:   Mon Apr 19 09:08:53 2021 +1000
+
+    Merge pull request #2 from hey-chan/branch1
+    
+    Edited aboutme
+
+commit a7012e94affb87c699681f6e4f06df22d4bfa168
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 08:59:54 2021 +1000
+
+    Edited aboutme
+
+commit 0a677351c4af09479a2c83a02849f49489e12ad2
+Merge: 5437556 19872da
+Author: hey-chan <76156735+hey-chan@users.noreply.github.com>
+Date:   Mon Apr 19 00:01:21 2021 +1000
+
+    Merge pull request #1 from hey-chan/branch1
+    
+    Commit to new branch
+
+commit 19872da56b7dae5d6106a0648947eb60970a11a2
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Mon Apr 19 00:00:32 2021 +1000
+
+    Commit to new branch
+
+commit 543755634fbe33aac83beb2fa63df81ba890f4d3
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Sun Apr 18 23:49:16 2021 +1000
+
+    added code for about_me, blog, contact, projects and skillscv
+
+commit c3293dbf6882110629b8d31b821f26e58faec10a
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Sun Apr 18 23:29:21 2021 +1000
+
+    Initial commit
+
+commit ad1c7c1e86029241288cbd5dc3076284002b9de2
+Author: hey-chan <liumatthew8@gmail.com>
+Date:   Sun Apr 18 23:28:17 2021 +1000
+
+    first commit
