@@ -49,9 +49,8 @@ I have considered the concept of responsive design and mobile first, with the us
 *****
 
 
-
-
 **Home page-mobile**
+
 ![screenshot-home_mobile](docs/homepage-mobile.png)
 *****
 
@@ -59,8 +58,6 @@ I have considered the concept of responsive design and mobile first, with the us
 **About me page**
 ![screenshot-aboutme](docs/aboutme-desktop.png)
 *****
-
-
 
 
 **About me-mobile**
@@ -83,8 +80,6 @@ I have considered the concept of responsive design and mobile first, with the us
 **Navigation bar**: Underlines current page, and shows underline for other item when hovered over
 ![screenshot-nav](docs/nav_current_hover.png)
 *****
-
-
 
 
 **Footer**: Icons will change colour when hovered over
