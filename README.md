@@ -15,8 +15,8 @@ Target audience includes:
 - Industry mentors
 
 ## ***Site map***
-![screenshot-sitemap](docs/sitemap.png)
 I have taken a plain approach with regards to the sitemap; simple and easy to navigate. Pages from the home page has access to all children pages, and all children pages and access other child pages and home. 
+![screenshot-sitemap](docs/sitemap.png)
 
 ##  ***Tech stack***
 I have made use of:
@@ -49,6 +49,8 @@ I have considered the concept of responsive design and mobile first, with the us
 *****
 
 
+
+
 **Home page-mobile**
 ![screenshot-home_mobile](docs/homepage-mobile.png)
 *****
@@ -59,18 +61,21 @@ I have considered the concept of responsive design and mobile first, with the us
 *****
 
 
+
+
 **About me-mobile**
+
 ![screenshot-aboutme_mobile](docs/aboutme-mobile.png)
 *****
 
 
-**Contact page**
-A functional contact form that uses Formspree
+**Contact page**: A functional contact form that uses Formspree
 ![screenshot-contact](docs/contact-desktop.png)
 *****
 
 
 **Contact page-mobile**
+
 ![screenshot-contact_mobile](docs/contact-mobile.png)
 *****
 
@@ -80,6 +85,9 @@ A functional contact form that uses Formspree
 *****
 
 
+
+
 **Footer**: Icons will change colour when hovered over
+
 ![screenshot-iconhover](docs/iconhover.png)
 
