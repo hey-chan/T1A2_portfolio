@@ -44,7 +44,7 @@ I have considered the concept of responsive design and mobile first, with the us
 
 
 ## ***Screenshots***
-**Home page**
+**Home page**: with `hover` and `transform` 
 ![screenshot-home](docs/homepage.png)
 *****
 
@@ -76,6 +76,11 @@ I have considered the concept of responsive design and mobile first, with the us
 ![screenshot-contact_mobile](docs/contact-mobile.png)
 *****
 
+
+**Dropdown menu**: Making use of Javascript and CSS 
+
+![screenshot-dropdown](docs/dropdown-menu.png)
+******
 
 **Navigation bar**: Underlines current page, and shows underline for other item when hovered over
 ![screenshot-nav](docs/nav_current_hover.png)
