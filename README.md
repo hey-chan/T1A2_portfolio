@@ -47,27 +47,39 @@ I have considered the concept of responsive design and mobile first, with the us
 **Home page**
 ![screenshot-home](docs/homepage.png)
 
+
+
 **Home page-mobile**
 ![screenshot-home_mobile](docs/homepage-mobile.png)
+
+
 
 **About me page**
 ![screenshot-aboutme](docs/aboutme-desktop.png)
 
+
+
 **About me-mobile**
 ![screenshot-aboutme_mobile](docs/aboutme-mobile.png)
+
+
 
 **Contact page**
 A functional contact form that uses Formspree
 ![screenshot-contact](docs/contact-desktop.png)
 
+
+
 **Contact page-mobile**
 ![screenshot-contact_mobile](docs/contact-mobile.png)
 
-**Navigation bar**
-Underlines current page, and shows underline for other item when hovered over
+
+
+**Navigation bar**: Underlines current page, and shows underline for other item when hovered over
 ![screenshot-nav](docs/nav_current_hover.png)
 
-**Footer**
-Icons will change colour when hovered over
-![screenshot-iconhover](docs/nav_current_hover.png)
+
+
+**Footer**: Icons will change colour when hovered over
+![screenshot-iconhover](docs/iconhover.png)
 
