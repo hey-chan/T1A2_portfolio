@@ -1,4 +1,4 @@
-# TIA2_portfolio
+# T1A2_portfolio
 - GitHub repository: https://github.com/hey-chan/TIA2_portfolio
 - Portfolio link: https://heymatt.netlify.app/
 
