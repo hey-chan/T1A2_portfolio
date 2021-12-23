@@ -34,18 +34,25 @@ body, html {
   text-align: center;
 }
 
-
 .nav-links-end {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  min-height: 4vh;
-  width: 100%;
-  background-color: #0f0d0d;
-  position: relative;
-  bottom: 0;
+  margin-right: 40px;
+
+  /* background-color: #0f0d0d; */
+  /* position: relative; */
+  /* bottom: 0; */
   list-style-type: none;
+  text-align: center;
+  
 }
+
+.nav-links-end, a {
+  color: black;
+
+}
+
 
 hr {
   margin: auto;
