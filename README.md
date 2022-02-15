@@ -1,4 +1,4 @@
-# T1A2_portfolio
+# My first portfolio website
 - GitHub repository: https://github.com/hey-chan/TIA2_portfolio
 - Portfolio link: https://heymatt.netlify.app/
 
