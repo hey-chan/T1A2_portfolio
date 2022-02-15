@@ -1,6 +1,6 @@
 # My first portfolio website
 - GitHub repository: https://github.com/hey-chan/TIA2_portfolio
-- Portfolio link: https://heymatt.netlify.app/
+- Portfolio link: https://portfoliositebymatt.netlify.app/
 
 ## ***Purpose***
 The purpose of this portfolio is to:
