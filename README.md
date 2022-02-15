@@ -1,5 +1,5 @@
 # My first portfolio website
-- GitHub repository: https://github.com/hey-chan/TIA2_portfolio
+- GitHub repository: https://github.com/hey-chan/my_first_portfolio
 - Portfolio link: https://portfoliositebymatt.netlify.app/
 
 ## ***Purpose***
